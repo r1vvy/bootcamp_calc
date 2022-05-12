@@ -1,0 +1,10 @@
+.wrapper {
+    width: 340px;
+    height: 480px;
+    border-radius: 10px;
+    border-color: #000000;
+    border: 1px solid;
+    background-color: #676566;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-top: 10%;
+  }
