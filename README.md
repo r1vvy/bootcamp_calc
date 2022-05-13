@@ -1,1 +1,1 @@
-This app still needs functions extracted outside App.js file and optimization, but it works.
+This app still needs functions extracted outside App.js file and optimization, but it works. Didn't manage to implement my own functionality while meeting the deadline, but I am keen on doing this after I do some uni homeworks next week.
