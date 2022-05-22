@@ -11,17 +11,20 @@ const btnValues = [
   [1, 2, 3, "+"],
   [0, ",", "="],
 ];
+
 const toLocaleString = (num) =>
   String(num).replace(/(?<!\..*)(\d)(?=(?:\d{3})+(?:\.|$))/g, "$1 ");
 const removeSpaces = (num) => num.toString().replace(/\s/g, "");
 
+
+
 const App = () => {
+  
   let [calc, setCalc] = useState({
     sign: "",
     num: 0,
     res: 0,
   });
-
   const numClickHandler = (e) => {
     e.preventDefault();
     const value = e.target.innerHTML;
@@ -38,7 +41,8 @@ const App = () => {
         res: !calc.sign ? 0 : calc.res,
       });
     }
-  };
+  }
+
   const commaClickHandler = (e) => {
     e.preventDefault();
     const value = e.target.innerHTML;
@@ -124,7 +128,6 @@ const App = () => {
             return (
               <Button
                 key={i}
-                // have to fix this later
                 className={btn === "=" ? "equals" : "" || btn === "+" ? "plus" : "" || btn === "-" ? "minus" : "" 
                 || btn === "X" ? "multiply" : "" || btn === "/" ? "divide" : "" || btn === 0 ? "zero" : ""
                 || btn === 0 ? "zero" : "" || btn === "C" ? "clear" : "" || btn === "+/-" ? "chSign" : ""
