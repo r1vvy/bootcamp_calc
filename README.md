@@ -1,3 +1,1 @@
-source tutorial: https://www.sitepoint.com/react-tutorial-build-calculator-app/
-
-Need to implement my own hooks.
+This app still needs functions extracted outside App.js file and optimization, but it works. Didn't manage to implement my own functionality while meeting the deadline, but I am keen on doing this after I do some uni homeworks next week.
